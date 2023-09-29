@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de alumnos UCH</title>
+    <style>
+        .ALUMNOUCH{
+            background-color: beige;
+            height: 5vh;
+            margin-bottom: 20px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            font-size: 24px
+            
+        }
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: 0 auto;
+        }
+        th, td {
+            border-bottom: 1px solid rgb(163, 163, 163);
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 5px;
+        }
+        textarea {
+            width: 200px;
+            resize: horizontal;
+            text-align: center;
+            
+        }
+        th, td, input, textarea {
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(110, 106, 106);
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="ALUMNOUCH">
+        <h1>ALUMNOS UCH</h1>
+    </div>
+    <div class="tablita">
+        <table>
+            <tr>
+                <th>Nro</th>
+                <th>Foto</th>
+                <th>Alumno</th>
+                <th>Apellidos y Nombres</th>
+                <th>Programa de Estudio</th>
+                <th>Mod.</th>
+                <th>Med.</th>
+                <th>Celular</th>
+                <th>Correo</th>
+                <th>Asistencia</th>
+                <th>Observación</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th></th>
+                <th>
+                    <form>
+                        <input type="text" placeholder="Buscar">
+                    </form>
+                </th>
+                <th>
+                    <form>
+                        <input type="text" placeholder="Buscar">
+                    </form>
+                </th>
+                <th>
+                    <form>
+                        <input type="text" placeholder="Buscar">
+                    </form>
+                </th>
+                <th>
+                    <form>
+                        <input type="text" placeholder="Buscar">
+                    </form>
+                </th>
+                <th>
+                    <form>
+                        <input type="text" placeholder="Buscar">
+                    </form>
+                </th>
+                <th>
+                    <form>
+                        <input type="text" placeholder="Buscar">
+                    </form>
+                </th>
+                <th>
+                    <form>
+                        <input type="text" placeholder="Buscar">
+                    </form>
+                </th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><img src="img/avatar 1.PNG" style="width: 100px;"></td>
+                <td>2310001</td>
+                <td>AGUIRRE ANTONIO</td>
+                <td>INGENIERÍA DE SISTEMAS E INFORMÁTICA</td>
+                <td>P</td>
+                <td>P</td>
+                <td>998523644</td>
+                <td>antonio.aguirre@gmail.com</td>
+                <td>
+                    <select class="SELECCIONAR">
+                        <option value="" disabled selected>Seleccionar</option>
+                        <option value="asistencia">Asistencia</option>
+                        <option value="inasistencia">Inasistencia</option>
+                        <option value="tardanza">Tardanza</option>
+                    </select>
+                </td>
+                <td><textarea class="observaciones" rows="3" placeholder="Observacion"></textarea></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><img src="img/avatar 2.PNG" style="width: 100px;"></td>
+                <td>2310002</td>
+                <td>ALCANTARA SEBASTIAN</td>
+                <td>INGENIERÍA DE SISTEMAS E INFORMÁTICA</td>
+                <td>P</td>
+                <td>P</td>
+                <td>987256321</td>
+                <td>sebas.alcantara@gmail.com</td>
+                <td>
+                    <select class="SELECCIONAR">
+                        <option value="" disabled selected>Seleccionar</option>
+                        <option value="asistencia">Asistencia</option>
+                        <option value="inasistencia">Inasistencia</option>
+                        <option value="tardanza">Tardanza</option>
+                    </select>
+                </td>
+                <td><textarea class="observaciones" rows="3"></textarea></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><img src="img/avatar 3.PNG" style="width: 100px;"></td>
+                <td>2310003</td>
+                <td>GOMEZ DANIEL</td>
+                <td>INGENIERÍA DE SISTEMAS E INFORMÁTICA</td>
+                <td>P</td>
+                <td>P</td>
+                <td>963258741</td>
+                <td>daniel.gomez@gmail.com</td>
+                <td>
+                    <select class="SELECCIONAR">
+                        <option value="" disabled selected>Seleccionar</option>
+                        <option value="asistencia">Asistencia</option>
+                        <option value="inasistencia">Inasistencia</option>
+                        <option value="tardanza">Tardanza</option>
+                    </select>
+                </td>
+                <td><textarea class="observaciones" rows="3"></textarea></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><img src="img/avatar 4.PNG" style="width: 100px;"></td>
+                <td>2310004</td>
+                <td>HUACCANI JEREMY</td>
+                <td>INGENIERÍA DE SISTEMAS E INFORMÁTICA</td>
+                <td>P</td>
+                <td>P</td>
+                <td>951357456</td>
+                <td>jeremy.huaccani@gmail.com</td>
+                <td>
+                    <select class="SELECCIONAR">
+                        <option value="" disabled selected>Seleccionar</option>
+                        <option value="asistencia">Asistencia</option>
+                        <option value="inasistencia">Inasistencia</option>
+                        <option value="tardanza">Tardanza</option>
+                    </select>
+                </td>
+                <td><textarea class="observaciones" rows="3"></textarea></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><img src="img/avatar 5.PNG" style="width: 100px;"></td>
+                <td>2310005</td>
+                <td>MARRUJO CLAUDIA</td>
+                <td>INGENIERÍA DE SISTEMAS E INFORMÁTICA</td>
+                <td>P</td>
+                <td>P</td>
+                <td>915321789</td>
+                <td>claudia.marrujo@gmail.com</td>
+                <td>
+                    <select class="SELECCIONAR">
+                        <option value="" disabled selected>Seleccionar</option>
+                        <option value="asistencia">Asistencia</option>
+                        <option value="inasistencia">Inasistencia</option>
+                        <option value="tardanza">Tardanza</option>
+                    </select>
+                </td>
+                <td><textarea class="observaciones" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td><img src="img/avatar 6.PNG" style="width: 100px;"></td>
+                <td>2310006</td>
+                <td>MEDINA RONALDO</td>
+                <td>INGENIERÍA DE SISTEMAS E INFORMÁTICA</td>
+                <td>P</td>
+                <td>P</td>
+                <td>985214736</td>
+                <td>ronaldo.medina@gmail.com</td>
+                <td>
+                    <select class="SELECCIONAR">
+                        <option value="" disabled selected>Seleccionar</option>
+                        <option value="asistencia">Asistencia</option>
+                        <option value="inasistencia">Inasistencia</option>
+                        <option value="tardanza">Tardanza</option>
+                    </select>
+                </td>
+                <td><textarea class="observaciones" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td><img src="img/avatar 7.PNG" style="width: 100px;"></td>
+                <td>2310007</td>
+                <td>MEJIA ANGELINA</td>
+                <td>INGENIERÍA DE SISTEMAS E INFORMÁTICA</td>
+                <td>P</td>
+                <td>P</td>
+                <td>917536541</td>
+                <td>angelina.mejia@gmail.com</td>
+                <td>
+                    <select class="SELECCIONAR">
+                        <option value="" disabled selected>Seleccionar</option>
+                        <option value="asistencia">Asistencia</option>
+                        <option value="inasistencia">Inasistencia</option>
+                        <option value="tardanza">Tardanza</option>
+                    </select>
+                </td>
+                <td><textarea class="observaciones" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td><img src="img/avatar 8.PNG" style="width: 100px;"></td>
+                <td>2310008</td>
+                <td>MILERA REBECA</td>
+                <td>INGENIERÍA DE SISTEMAS E INFORMÁTICA</td>
+                <td>P</td>
+                <td>P</td>
+                <td>911223694</td>
+                <td>rebeca.milera@gmail.com</td>
+                <td>
+                    <select class="SELECCIONAR">
+                        <option value="" disabled selected>Seleccionar</option>
+                        <option value="asistencia">Asistencia</option>
+                        <option value="inasistencia">Inasistencia</option>
+                        <option value="tardanza">Tardanza</option>
+                    </select>
+                </td>
+                <td><textarea class="observaciones" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td><img src="img/avatar 9.PNG" style="width: 100px;"></td>
+                <td>2310009</td>
+                <td>PEÑA SHAMIRA</td>
+                <td>INGENIERÍA DE SISTEMAS E INFORMÁTICA</td>
+                <td>P</td>
+                <td>P</td>
+                <td>959753258</td>
+                <td>shamira.peña@gmail.com</td>
+                <td>
+                    <select class="SELECCIONAR">
+                        <option value="" disabled selected>Seleccionar</option>
+                        <option value="asistencia">Asistencia</option>
+                        <option value="inasistencia">Inasistencia</option>
+                        <option value="tardanza">Tardanza</option>
+                    </select>
+                </td>
+                <td><textarea class="observaciones" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td><img src="img/avatar 10.PNG" style="width: 100px;"></td>
+                <td>2310010</td>
+                <td>SANTAMARIA DAVID</td>
+                <td>INGENIERÍA DE SISTEMAS E INFORMÁTICA</td>
+                <td>P</td>
+                <td>P</td>
+                <td>933205664</td>
+                <td>david.santamaria@gmail.com</td>
+                <td>
+                    <select class="SELECCIONAR">
+                        <option value="" disabled selected>Seleccionar</option>
+                        <option value="asistencia">Asistencia</option>
+                        <option value="inasistencia">Inasistencia</option>
+                        <option value="tardanza">Tardanza</option>
+                    </select>
+                </td>
+                <td><textarea class="observaciones" rows="5"></textarea></td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
